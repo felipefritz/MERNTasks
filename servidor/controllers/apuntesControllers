@@ -1,0 +1,35 @@
+controllers: es lo que se encarga de tomar los request y conectarlos con el modelo y las respuestas del modelo
+vista: la vista es react
+se crea un controller para cada objeto (o endpoint)
+
+
+npm install bcryptjs para hashear las password
+
+npm i express-validator: validar datos
+
+
+*** las reglas van en el routing y los resultados se leen en el controlador
+
+
+JWT: 
+instalar libreria: npm install jsonwebtoken
+jwt: que son los json web tokens?
+en react no existen las sesiones de usuario
+
+jwt: son un standar para compartir informacion entre distintas apps en un objeto json
+las apps web pueden compartir datos seguros utilizando jwt, ya que verifican la autenticidad
+
+jwt puede ser utilizando en cualquier apps
+
+
+autorizacion del jwt: cuando el usuario se logea, se almacena el jwt y con esto
+se verifica que el usuario puede acceder a distintas rutas de la app, servicios, etc
+
+son seguros para compartir info entre 2 apps
+
+se componen de 3 partes:
+header: tipo de jwt y algoritmo
+payload: informacion de la entidad y datos
+signature: verifica que el mensaje no a cambiado en su transporte
+
+primero se crea la info del jwt y luego se firma: ver en Usuariocontroller

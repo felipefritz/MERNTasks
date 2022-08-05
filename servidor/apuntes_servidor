@@ -1,0 +1,9 @@
+primero en terminal:
+
+1 npm init : para creaer archiuvo package.json
+2 npm install -D nodemon : cada vez que alla cambios se reiniciara el servidor
+3 npm i express mongoose dotenv: express es el servidor, mongoose para realizar las consultas
+
+4 modificar package.json seccion scripts: start: "node ." esto quiere decir que va a buscar el archivo index.js dentro de la carpeta servidor
+5 y agregar dev: nodemon: "nodemon ."
+6 descargar mongo db compass y crear cuenta en mongodb atlas
